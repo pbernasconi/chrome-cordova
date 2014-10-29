@@ -12,14 +12,10 @@
         ]
     },
     "icons": {
-        "128": "images/icon-128-off.png"
+        "128": "images/icon-128-on.png"
     },
     "browser_action": {
-        "default_title": "Cordova Mocks",
-        "default_icon": {
-            "19": "images/icon-128-off.png",
-            "38": "images/icon-128-off.png"
-        }
+        "default_title": "Cordova Mocks"
     },
     "permissions": [
         "<all_urls>"
