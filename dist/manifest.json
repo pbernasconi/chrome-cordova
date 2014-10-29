@@ -1,6 +1,6 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.48",
+    "version": "0.0.65",
     "manifest_version": 2,
     "description": "__MSG_appDescription__",
     "icons": {
@@ -18,7 +18,8 @@
     },
     "permissions": [
         "tabs",
-        "<all_urls>"
+        "<all_urls>",
+        "webNavigation"
     ],
     "content_scripts": [
         {
@@ -28,7 +29,8 @@
             "js": [
                 "scripts/inject.js",
                 "scripts/cordova-mocks.js"
-            ]
+            ],
+            "run_at": "document_start"
         }
     ],
     "web_accessible_resources": [

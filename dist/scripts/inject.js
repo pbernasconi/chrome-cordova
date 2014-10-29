@@ -1,1 +1,1 @@
-var inspectorScript=document.createElement("script");inspectorScript.type="text/javascript",inspectorScript.src=chrome.extension.getURL("scripts/cordova-mocks.js"),document.head.appendChild(inspectorScript);
+function injectJs(a){var b=document.createElement("script");b.type="text/javascript",b.src=a,(document.head||document.body||document.documentElement).appendChild(b)}injectJs(chrome.extension.getURL("scripts/cordova-mocks.js"));
