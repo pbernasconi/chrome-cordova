@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="chromeApp">
 <head>
-    <title>My Test Extension Options</title>
+    <title>Cordova Mocks | Options</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
     <link rel="stylesheet" href="../lib/angular-material/angular-material.min.css">
@@ -15,6 +15,34 @@
 </head>
 <body layout="horizontal" ng-controller="AppCtrl">
 
+
+<md-sidenav class="md-sidenav-left md-whiteframe-z1" component-id="left">
+    <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">Options</h1>
+    </md-toolbar>
+    <md-content class="md-padding" ng-controller="SidenavCtrl">
+
+        <a class="menu-item menu-sub-item" ng-repeat="page in options" ng-class="{active: menu.isPageSelected(section, page)}" ng-href="#{{page.url}}" ink-ripple>
+            <span ng-bind="page.name"></span>
+        </a>
+    </md-content>
+</md-sidenav>
+
+
+<div layout="vertical" layout-fill>
+    <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">Detail</h1>
+    </md-toolbar>
+    <md-content flex class="md-padding">
+
+        <div layout="vertical" layout-fill layout-align="center center">
+            <p>
+                The left sidenav will 'lock open' on a medium (>=960px wide) device.
+            </p>
+        </div>
+
+    </md-content>
+</div>
 
 </body>
 </html>

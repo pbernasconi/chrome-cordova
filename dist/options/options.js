@@ -16,6 +16,12 @@ angular.module('chromeApp', [
 
     })
 
-    .controller("SideMenuCtrl", function () {
+    .controller("SidenavCtrl", function ($scope) {
+
+        $scope.options = [
+            {name: "Device"},
+            {name: ""}
+        ];
+
 
     })
