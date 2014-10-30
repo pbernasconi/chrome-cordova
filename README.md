@@ -1,7 +1,7 @@
 Cordova Mocks
 ==============
 
-[![preview](https://github.com/pbernasconi/chrome-cordova/blob/master/src/images/icon-128-on.png)]()
+[![preview](https://github.com/pbernasconi/chrome-cordova/blob/master/src/images/icon-38-on.png)]()
 
 
 A Google Chrome extension to mock Cordova plugins and APIs. 
