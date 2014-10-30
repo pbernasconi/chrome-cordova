@@ -20,6 +20,7 @@
     "permissions": [
         "<all_urls>"
     ],
+    "options_page": "options/options.html",
     "content_scripts": [
         {
             "matches": [
@@ -32,6 +33,7 @@
             "run_at": "document_start"
         }
     ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "web_accessible_resources": [
         "scripts/cordova.js"
     ]
