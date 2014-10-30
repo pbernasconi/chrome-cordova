@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     clean = require('gulp-clean'),
     rename = require('gulp-rename'),
     footer = require('gulp-footer'),
-    header = require('gulp-header');
+    header = require('gulp-header'),
+    zip = require('gulp-zip');
 
 gulp.task('default', ['build']);
 
@@ -51,6 +52,15 @@ gulp.task('copy', function () {
         .pipe(gulp.dest('dist/lib'));
     return gulp.src('src/manifest.json')
         .pipe(gulp.dest('dist'));
+});
+
+gulp.task('zip', ['build'], function () {
+    var manifest = require('./src/manifest'),
+        distFileName = manifest.name + ' v' + manifest.version + '.zip',
+        mapFileName = manifest.name + ' v' + manifest.version + '-maps.zip';
+    return gulp.src(['dist/**', '!dist/scripts/**/*.map'])
+        .pipe(zip(distFileName))
+        .pipe(gulp.dest('package'));
 });
 
 
