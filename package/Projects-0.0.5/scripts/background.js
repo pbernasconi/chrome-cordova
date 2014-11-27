@@ -1,1 +1,0 @@
-"use strict";chrome.runtime.onInstalled.addListener(function(a){console.log("previousVersion",a.previousVersion)}),console.log("'Allo 'Allo! Event Page");var device={version:"0.1.1"};
