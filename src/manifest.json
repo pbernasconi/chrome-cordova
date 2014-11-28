@@ -18,7 +18,8 @@
         "default_title": "Cordova Mocks"
     },
     "permissions": [
-        "<all_urls>"
+        "<all_urls>",
+        "storage"
     ],
     "options_page": "options/options.html",
     "content_scripts": [
