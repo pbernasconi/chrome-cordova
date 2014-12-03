@@ -1,5 +1,6 @@
 /****************************************************************
  * Barcode Scanner
+ * link :   https://github.com/wildabeast/BarcodeScanner
  */
 
 var barcodeScanner = {};

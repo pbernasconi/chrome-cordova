@@ -48,6 +48,8 @@ gulp.task('copy', function () {
         .pipe(gulp.dest('dist/images'));
     gulp.src('src/options/**')
         .pipe(gulp.dest('dist/options'));
+    gulp.src('src/popup/**')
+        .pipe(gulp.dest('dist/popup'));
     gulp.src('src/lib/**')
         .pipe(gulp.dest('dist/lib'));
     return gulp.src('src/manifest.json')

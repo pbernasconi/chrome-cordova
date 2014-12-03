@@ -15,10 +15,12 @@
         "128": "images/icon-128-on.png"
     },
     "browser_action": {
-        "default_title": "Cordova Mocks"
+        "default_title": "Cordova Mocks",
+        "default_popup": "popup/popup.html"
     },
     "permissions": [
-        "<all_urls>"
+        "<all_urls>",
+        "storage"
     ],
     "options_page": "options/options.html",
     "content_scripts": [

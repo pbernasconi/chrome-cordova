@@ -6,11 +6,11 @@
  */
 (function(){
 if (!window.cordova) {
-    window.cordova = {};
+    var cordova = {};
 }
 
-if (!window.cordova.plugins) {
-    window.cordova.plugins = {};
+if (!cordova.plugins) {
+    cordova.plugins = {};
 }
 
 if (!window.plugins) {
@@ -19,6 +19,7 @@ if (!window.plugins) {
 
 /****************************************************************
  * Barcode Scanner
+ * link :   https://github.com/wildabeast/BarcodeScanner
  */
 
 var barcodeScanner = {};
