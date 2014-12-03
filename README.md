@@ -6,10 +6,9 @@ Cordova Mocks
 
 A Google Chrome extension to mock Cordova plugins and APIs. 
 
-## Website
+## [See it on the Chrome Webstore](https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahiofeeeifpn)
 
-[Link to chrome extensions store coming soon...]()
-
+https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahiofeeeifpn
 
 ## Plugins Supported
 
