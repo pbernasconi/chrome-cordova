@@ -1,6 +1,6 @@
 {
     "name": "Cordova Mocks",
-    "version": "0.0.70",
+    "version": "0.0.71",
     "manifest_version": 2,
     "description": "A Chrome extension which provides mock data for many Cordova Plugins and Cordova APIs",
     "author": "Paolo Bernasconi",
