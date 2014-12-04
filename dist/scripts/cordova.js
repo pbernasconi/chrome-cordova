@@ -5,6 +5,7 @@
  * See LICENSE in this repository for license information
  */
 (function(){
+/*
 if (!window.cordova) {
     var cordova = {};
 }
@@ -12,6 +13,7 @@ if (!window.cordova) {
 if (!cordova.plugins) {
     cordova.plugins = {};
 }
+*/
 
 if (!window.plugins) {
     window.plugins = {};
@@ -20,7 +22,7 @@ if (!window.plugins) {
 /****************************************************************
  * Barcode Scanner
  * link :   https://github.com/wildabeast/BarcodeScanner
- */
+
 
 var barcodeScanner = {};
 
@@ -36,6 +38,7 @@ barcodeScanner.scan = function (successCallback, errorCallback) {
 };
 
 cordova.plugins.barcodeScanner = barcodeScanner;
+ */
 
 
 /****************************************************************

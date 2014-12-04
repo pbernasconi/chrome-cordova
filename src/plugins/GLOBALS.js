@@ -1,3 +1,4 @@
+/*
 if (!window.cordova) {
     var cordova = {};
 }
@@ -5,6 +6,7 @@ if (!window.cordova) {
 if (!cordova.plugins) {
     cordova.plugins = {};
 }
+*/
 
 if (!window.plugins) {
     window.plugins = {};

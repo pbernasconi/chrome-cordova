@@ -1,7 +1,7 @@
 /****************************************************************
  * Barcode Scanner
  * link :   https://github.com/wildabeast/BarcodeScanner
- */
+
 
 var barcodeScanner = {};
 
@@ -17,3 +17,4 @@ barcodeScanner.scan = function (successCallback, errorCallback) {
 };
 
 cordova.plugins.barcodeScanner = barcodeScanner;
+ */

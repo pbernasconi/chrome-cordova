@@ -64,6 +64,10 @@ input.toggle {
     transition: 400ms;
 }
 
+.button-options:focus {
+    outline: 0;
+}
+
 footer {
     bottom: 0;
     height: 30px;
