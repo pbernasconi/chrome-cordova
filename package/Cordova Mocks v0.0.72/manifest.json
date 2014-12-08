@@ -1,0 +1,42 @@
+{
+    "name": "Cordova Mocks",
+    "version": "0.0.72",
+    "manifest_version": 2,
+    "description": "A Chrome extension which provides mock data for many Cordova Plugins and Cordova APIs",
+    "author": "Paolo Bernasconi",
+    "default_locale": "en",
+    "current_locale": "en",
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "icons": {
+        "128": "images/icon-128-on.png"
+    },
+    "browser_action": {
+        "default_title": "Cordova Mocks",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "<all_urls>",
+        "storage"
+    ],
+    "options_page": "options/options.html",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "scripts/inject.js",
+                "scripts/cordova.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "web_accessible_resources": [
+        "scripts/cordova.js"
+    ]
+}
