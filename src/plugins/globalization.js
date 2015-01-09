@@ -3,14 +3,14 @@
  */
 
 var globalization = {};
-var languages = (navigator.languages) ?  navigator.languages : ["en-US", "en"];
+var language = (navigator.language) ?  navigator.language : "en-US";
 
 globalization.getPreferredLanguage = function (successCallback, errorCallback) {
-    successCallback({value: languages[0]});
+    successCallback({value: language});
 };
 
 globalization.getLocaleName = function (successCallback, errorCallback) {
-    successCallback({value: languages[0]});
+    successCallback({value: language});
 };
 
 globalization.getFirstDayOfWeek = function (successCallback, errorCallback) {
