@@ -6,7 +6,7 @@ var globalization = {};
 var languages = (navigator.languages) ?  navigator.languages : ["en-US", "en"];
 
 globalization.getPreferredLanguage = function (successCallback, errorCallback) {
-    successCallback({value: languages[1].toUpperCase()});
+    successCallback({value: languages[0]});
 };
 
 globalization.getLocaleName = function (successCallback, errorCallback) {
