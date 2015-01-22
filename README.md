@@ -4,7 +4,7 @@ Cordova Mocks
 [![preview](https://github.com/pbernasconi/chrome-cordova/blob/master/src/images/icon-72-on.png)]()
 
 
-A Google Chrome extension to mock Cordova plugins and APIs. 
+A Google Chrome extension to mock Cordova plugins and APIs.
 
 ## [See it on the Chrome Webstore](https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahiofeeeifpn)
 
@@ -22,6 +22,7 @@ https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahio
 - [Geolocation](https://github.com/apache/cordova-plugin-geolocation) *
 - [Globalization](https://github.com/apache/cordova-plugin-globalization) *
 - [Network Information](https://github.com/apache/cordova-plugin-network-information) *
+- [Vibration](https://github.com/apache/cordova-plugin-vibration) *
 
 `* official Apache Cordova Plugin`
 
