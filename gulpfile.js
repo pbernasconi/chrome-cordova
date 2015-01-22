@@ -19,9 +19,9 @@ gulp.task('clean', function () {
 
 
 gulp.task('lint', function () {
-    return gulp.src('./lib/*.js')
+    return gulp.src([ '!src/lib/**', 'src/**/*.js' ])
         .pipe(jshint())
-        .pipe(jshint.reporter('YOUR_REPORTER_HERE'));
+        .pipe(jshint.reporter('jshint-stylish'));
 });
 
 
