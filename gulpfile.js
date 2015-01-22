@@ -5,10 +5,7 @@ var gulp = require('gulp'),
 gulp.task('default', ['build']);
 
 
-gulp.task('clean', function () {
-    return gulp.src('dist', {read: false})
-        .pipe($.clean());
-});
+gulp.task('clean', require('del').bind(null, [ 'dist' ]));
 
 
 gulp.task('lint', function () {
