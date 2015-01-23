@@ -15,7 +15,7 @@ gulp.task('lint', function () {
 });
 
 
-gulp.task('build', ['copy'], function () {
+gulp.task('build', ['lint', 'copy'], function () {
     return gulp.src(buildConfig.src.plugins)
         .pipe($.concat('cordova.js'))
         .pipe($.header(buildConfig.closureStart))
