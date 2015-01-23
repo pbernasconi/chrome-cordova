@@ -4,7 +4,7 @@ Cordova Mocks
 [![preview](https://github.com/pbernasconi/chrome-cordova/blob/master/src/images/icon-72-on.png)]()
 
 
-A Google Chrome extension to mock Cordova plugins and APIs. 
+A Google Chrome extension to mock Cordova plugins and APIs.
 
 ## [See it on the Chrome Webstore](https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahiofeeeifpn)
 
@@ -14,6 +14,7 @@ https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahio
 
 - [Barcode Scanner](https://github.com/wildabeast/BarcodeScanner)
 - [Camera](https://github.com/apache/cordova-plugin-camera) *
+- [Contacts](https://github.com/apache/cordova-plugin-contacts) *
 - [Device Motion](https://github.com/apache/cordova-plugin-device-motion) *
 - [Device Orientation](https://github.com/apache/cordova-plugin-device-orientation) *
 - [Device](https://github.com/apache/cordova-plugin-device) *
