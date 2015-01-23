@@ -1,6 +1,9 @@
 {
   "name": "projects",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "angular": "1.3.0-rc.4",
+    "angular-material": "0.4.2"
+  },
   "devDependencies": {}
 }
