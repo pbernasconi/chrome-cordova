@@ -21,7 +21,7 @@ notification.confirm = function (message, callback, title, buttonName) {
 
 notification.prompt = function (message, callback, title, buttonName, defaultText) {
     var res = window.prompt(message, defaultText);
-    if (res != null) {
+    if (res !== null) {
         callback({input1: res, buttonIndex: 1});
     }
     else {
