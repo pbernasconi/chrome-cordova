@@ -14,6 +14,7 @@ https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahio
 
 - [Barcode Scanner](https://github.com/wildabeast/BarcodeScanner)
 - [Camera](https://github.com/apache/cordova-plugin-camera) *
+- [Contacts](https://github.com/apache/cordova-plugin-contacts) *
 - [Device Motion](https://github.com/apache/cordova-plugin-device-motion) *
 - [Device Orientation](https://github.com/apache/cordova-plugin-device-orientation) *
 - [Device](https://github.com/apache/cordova-plugin-device) *
