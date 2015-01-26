@@ -19,6 +19,7 @@ https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahio
 - [Device Orientation](https://github.com/apache/cordova-plugin-device-orientation) *
 - [Device](https://github.com/apache/cordova-plugin-device) *
 - [Dialogs](https://github.com/apache/cordova-plugin-dialogs) *
+- [File](https://github.com/apache/cordova-plugin-file) *
 - [Flashlight](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin)
 - [Geolocation](https://github.com/apache/cordova-plugin-geolocation) *
 - [Globalization](https://github.com/apache/cordova-plugin-globalization) *
