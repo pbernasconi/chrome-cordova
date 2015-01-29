@@ -1,4 +1,7 @@
 {
   "directory": "src/lib",
-  "analytics": false
+  "analytics": false,
+  "scripts": {
+    "postinstall": "gulp wiredep"
+  }
 }

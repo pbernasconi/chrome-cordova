@@ -55,8 +55,16 @@ gulp.task('zip', ['build'], function () {
         .pipe(gulp.dest('package'));
 });
 
+gulp.task('wiredep', function () {
+    var wiredep = require('wiredep').stream;
+
+    return gulp.src('src/options/options.html')
+        .pipe(wiredep())
+        .pipe(gulp.dest('src/options/'))
+});
 
 gulp.task('watch', function () {
     gulp.watch('src/**', [ 'build']);
     gulp.watch('src/manifest.json', [ 'build']);
+    gulp.watch('bower.json', [ 'wiredep' ]);
 });
