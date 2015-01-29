@@ -2,7 +2,7 @@
  * Vibration
  */
 
-var vibration = {}
+var vibration = {};
 
 vibration.vibrateWithPattern = function (pattern, repeat) {
     repeat = typeof repeat !== 'undefined' ? repeat : -1;
@@ -11,13 +11,13 @@ vibration.vibrateWithPattern = function (pattern, repeat) {
 };
 
 vibration.cancelVibration = function () {
-    console.log('Cancelling vibration.')
+    console.log('Cancelling vibration.');
 };
 
 vibration.vibrate = function (param) {
 
     if (param && typeof param === 'number') {
-        console.log('Vibrating for %sms.', param)
+        console.log('Vibrating for %sms.', param);
     }
     else if (typeof param === 'object' && param.length === 1)
     {

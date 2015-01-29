@@ -5,7 +5,6 @@
   "devDependencies": {
     "del": "^1.1.1",
     "gulp": "^3.8.9",
-    "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.4.1",
     "gulp-footer": "^1.0.5",
     "gulp-header": "^1.2.2",
