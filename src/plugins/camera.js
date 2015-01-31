@@ -53,6 +53,10 @@ camera.getPicture = function (successCallback, errorCallback, options) {
     successCallback(image);
 };
 
+camera.cleanup = function (successCallback, errorCallback) {
+    successCallback();
+}
+
 
 window.navigator.camera = camera;
 window.Camera = Camera;
