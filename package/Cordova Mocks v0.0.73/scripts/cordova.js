@@ -177,6 +177,37 @@ var Contact = function(id, displayName, name, nickname, phoneNumbers, emails, ad
     this.urls = urls || null; // ContactField[]
 };
 
+
+contacts.fieldType = {
+    addresses:      "addresses",
+    birthday:       "birthday",
+    categories:     "categories",
+    country:        "country",
+    department:     "department",
+    displayName:    "displayName",
+    emails:         "emails",
+    familyName:     "familyName",
+    formatted:      "formatted",
+    givenName:      "givenName",
+    honorificPrefix: "honorificPrefix",
+    honorificSuffix: "honorificSuffix",
+    id:             "id",
+    ims:            "ims",
+    locality:       "locality",
+    middleName:     "middleName",
+    name:           "name",
+    nickname:       "nickname",
+    note:           "note",
+    organizations:  "organizations",
+    phoneNumbers:   "phoneNumbers",
+    photos:         "photos",
+    postalCode:     "postalCode",
+    region:         "region",
+    streetAddress:  "streetAddress",
+    title:          "title",
+    urls:           "urls"
+};
+
 contacts.create = function (properties) {
 
     var contact = {
@@ -185,7 +216,7 @@ contacts.create = function (properties) {
         displayName: 'John',
         name: new ContactName(null, 'Doe', 'John'),
         nickname: 'Johnny',
-        phoneNumbers: new ContactField('Number', 12345678),
+        phoneNumbers: [new ContactField('Number', 12345678)],
         emails: new ContactField('Array', [ 'john@doe.com' ]),
         addresses: new ContactAddress(null, 'home', null, 'Street Address', null, 'South', 12345, 'US'),
         ims: new ContactField(),
@@ -231,6 +262,7 @@ window.navigator.contacts = window.navigator.contacts || {};
 window.navigator.contacts.create = contacts.create;
 window.navigator.contacts.find = contacts.find;
 window.navigator.contacts.pickContact = contacts.pickContact;
+window.navigator.contacts.fieldType = contacts.fieldType;
 
 /****************************************************************
  * Device
