@@ -55,7 +55,7 @@ camera.getPicture = function (successCallback, errorCallback, options) {
 
 camera.cleanup = function (successCallback, errorCallback) {
     successCallback();
-}
+};
 
 
 window.navigator.camera = camera;

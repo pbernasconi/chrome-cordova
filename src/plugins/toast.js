@@ -2,7 +2,7 @@ function Toast() {
 }
 
 Toast.prototype.show = function (message, duration, position, successCallback, errorCallback) {
-  console.log("Toast has been called, message:" + message + ", duration:" + duration + ", position: " + position)
+  console.log("Toast has been called, message:" + message + ", duration:" + duration + ", position: " + position);
 };
 
 Toast.prototype.showShortTop = function (message, successCallback, errorCallback) {
