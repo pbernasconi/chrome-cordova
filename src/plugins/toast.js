@@ -5,6 +5,10 @@ Toast.prototype.show = function (message, duration, position, successCallback, e
   console.log("Toast has been called, message:" + message + ", duration:" + duration + ", position: " + position);
 };
 
+Toast.prototype.showWithOptions = function (options, successCallback, errorCallback) {
+  this.show(options.message, options.duration, options.position, successCallback, errorCallback);
+};
+
 Toast.prototype.showShortTop = function (message, successCallback, errorCallback) {
   this.show(message, "short", "top", successCallback, errorCallback);
 };
