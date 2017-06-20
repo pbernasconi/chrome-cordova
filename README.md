@@ -32,7 +32,7 @@ https://chrome.google.com/webstore/detail/cordova-mocks/iigcccneenmnplhhfhaeahio
 
 ```
 git clone https://github.com/pbernasconi/chrome-cordova.git
-cd .../chrome-cordova
+cd chrome-cordova/
 npm install
 bower install
 gulp build
